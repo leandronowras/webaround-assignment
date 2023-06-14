@@ -22,10 +22,19 @@ After successful authentication, the user will be redirected to a page with a ta
 
 
 TODO:
-- [ ] encriptar senha
-- [ ] service para validar todas as regras de senha?
+- servicos para
+  - [ ] encriptar senha
+  - [ ] gerar id de user
+  - [ ] gerar id de cartItem
+  - [ ] gerar id de order
+- [ ] graphql para validar todas as regras de senha?
 - [ ] regex para validar o email
 - [ ] refatorar para usar objetos nos construtores
+- [ ] uuid no user e no cartItem e order
+- [ ] mapear id do cart item com id do product
+- [ ] add dimensoes para os produtos
+- [ ] separar user/authentication do ecommer em modoliths
+
 
 ---
 
